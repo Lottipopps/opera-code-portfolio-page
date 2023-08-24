@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import LogoDay from "./images/Opera-Code-Logo-Day.png";
-import LogoNight from "./images/Opera-Code-Logo-Night.png";
+
 
 export default function Navbar() {
   return (

@@ -1,0 +1,25 @@
+.Navbar {
+  background-color: rgb(141, 198, 255);
+  border: 3px solid rgb(123, 187, 251);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  line-height: 50px;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  width: 50px;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

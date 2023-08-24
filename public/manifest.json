@@ -1,0 +1,22 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "Opera-Code-Logo-Day.png",
+      "type": "image/png"
+    },
+    {
+      "src": "Opera-Code-Logo-Night.png",
+      "type": "image/png"
+    },
+    {
+      "src": "Profile-Photo.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

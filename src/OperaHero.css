@@ -1,0 +1,24 @@
+.OperaHero {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(228, 241, 254);
+  background-size: cover;
+}
+
+.OperaHero header {
+  display: flex;
+  align-items: center;
+}
+.OperaHero h1 {
+  text-align: left;
+  padding-top: 100px;
+  margin-left: 150px;
+}
+.OperaHero h2 {
+  text-align: left;
+  margin-left: 80px;
+}
+.OperaHero img {
+  width: 500px;
+  clip-path: circle(37%);
+}

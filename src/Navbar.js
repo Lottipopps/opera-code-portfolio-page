@@ -2,7 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import LogoDay from "./images/Opera-Code-Logo-Day.png";
 
-
 export default function Navbar() {
   return (
     <div className="Navbar sticky-top">
@@ -25,9 +24,9 @@ export default function Navbar() {
           <a href="/#Contacts">Contacts</a>
         </li>
         <li>
-          <i class="fa-solid fa-sun" style={{ color: "#34495e" }}></i>
+          <i className="fa-solid fa-sun" style={{ color: "#34495e" }}></i>
           {"   "}
-          <i class="fa-solid fa-moon" style={{ color: "#34495e" }}></i>
+          <i className="fa-solid fa-moon" style={{ color: "#34495e" }}></i>
         </li>
       </ul>
     </div>

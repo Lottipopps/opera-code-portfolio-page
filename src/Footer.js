@@ -44,17 +44,25 @@ export default function Footer() {
             <h6>Contact me</h6>
             <ul>
               <li>
-                <a href="">
+                <a
+                  href="https://github.com/Lottipopps"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-brands fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/carlottamissirolisoprano-developer/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="mailto:lotpop.chocolateuk@gmail.com">
                   <i class="fa-solid fa-envelope"></i>
                 </a>
               </li>

@@ -1,0 +1,27 @@
+.Footer {
+  background-color: rgb(228, 241, 254);
+  padding: 30px;
+}
+.Footer .second {
+  text-align: right;
+}
+
+.Footer ul {
+  margin: 0;
+  padding: 0;
+}
+.Footer .first li {
+  list-style: none;
+  line-height: 30px;
+  font-size: 14px;
+}
+.Footer a {
+  text-decoration: none;
+}
+.Footer .second li {
+  list-style: none;
+  line-height: 30px;
+  font-size: 30px;
+  display: inline-block;
+  margin: 10px 0 10px 40px;
+}

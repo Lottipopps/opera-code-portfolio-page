@@ -7,21 +7,19 @@ export default function Navbar() {
     <div className="Navbar sticky-top">
       <ul className="d-flex justify-content-between">
         <li>
-          <a href="/">
-            <img src={LogoDay} alt="Logo" id="logo" />
-          </a>
+          <img src={LogoDay} alt="Logo" id="logo" />
         </li>
         <li>
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/#Projects">Projects</a>
+          <a href="#Projects">Projects</a>
         </li>
         <li>
-          <a href="/#CV">CV</a>
+          <a href="#CV">CV</a>
         </li>
         <li>
-          <a href="/#Contacts">Contacts</a>
+          <a href="#Contacts">Contacts</a>
         </li>
         <li>
           <i className="fa-solid fa-sun" style={{ color: "#34495e" }}></i>

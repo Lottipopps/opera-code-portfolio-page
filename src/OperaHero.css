@@ -20,5 +20,5 @@
 }
 .OperaHero img {
   width: 500px;
-  clip-path: circle(37%);
+  clip-path: ellipse(50% 34% at 50% 50%);
 }

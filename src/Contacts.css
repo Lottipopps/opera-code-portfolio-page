@@ -1,0 +1,12 @@
+.Contacts {
+  background-color: rgb(213, 231, 250);
+  text-align: center;
+}
+.Contacts .section {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5px;
+}
+.Contacts button {
+  width: 100px;
+}

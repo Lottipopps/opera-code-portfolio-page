@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import "./App.css";
 import { Route, Routes, Link } from "react-router-dom";
-import Navbar from "./Navbar";
 import OperaHero from "./OperaHero";
 import Projects from "./Projects";
 import CV from "./CV";
@@ -47,7 +46,7 @@ function App() {
               ) : (
                 <i
                   className="fa-solid fa-moon"
-                  style={{ color: "#34495e" }}
+                  style={{ color: " #5c5757" }}
                 ></i>
               )}
             </li>

@@ -3,6 +3,7 @@
   margin: 0;
 }
 .App .Navbar li {
+  font-family: var(--head-font);
   list-style: none;
   line-height: 50px;
   font-size: 25px;

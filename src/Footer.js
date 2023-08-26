@@ -30,12 +30,24 @@ export default function Footer() {
                 not just for coding, and completely free!
               </li>
               <li>
-                <a href="https://www.codecademy.com/">Codecademy</a> good for
-                everything Tech-related and available in monthly plans!
+                <a
+                  href="https://www.codecademy.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Codecademy
+                </a>{" "}
+                good for everything Tech-related and available in monthly plans!
               </li>
               <li>
-                <a href="https://www.freecodecamp.org/learn/">FreeCodeCamp</a>,
-                just as it says on the label, free and very complete, just not
+                <a
+                  href="https://www.freecodecamp.org/learn/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  FreeCodeCamp
+                </a>
+                , just as it says on the label, free and very complete, just not
                 very beginner friendly.
               </li>
             </ul>

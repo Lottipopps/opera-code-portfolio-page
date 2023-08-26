@@ -1,6 +1,8 @@
 .Footer {
   background-color: rgb(228, 241, 254);
   padding: 30px;
+  font-family: var(--body-font);
+  font-weight: 500;
 }
 .Footer .second {
   text-align: right;

@@ -3,6 +3,8 @@
   --secondary-light: rgb(98, 146, 154);
   --primary-dark: rgb(54, 52, 52);
   --secondary-dark: rgb(92, 87, 87);
+  --head-font: "Audiowide", cursive;
+  --body-font: "Play", sans-serif;
 }
 
 .light-mode .OperaHero,

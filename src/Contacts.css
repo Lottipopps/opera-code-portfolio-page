@@ -1,12 +1,24 @@
 .Contacts {
+  font-family: var(--body-font);
+  font-size: 18px;
   height: 100vh;
-  text-align: center;
+  text-align: left;
   background-size: cover;
+}
+.Contacts #email-text {
+  margin-top: 50px;
+  font-size: 25px;
+}
+.Contacts #message-text {
+  font-size: 25px;
 }
 .Contacts .section {
   margin: 0 auto;
   max-width: 800px;
-  padding: 5px;
+  padding: 10px;
+}
+.Contacts #message {
+  height: 200px;
 }
 .Contacts button {
   width: 100px;

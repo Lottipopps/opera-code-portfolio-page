@@ -1,5 +1,6 @@
 .OperaHero {
   text-align: center;
+  font-family: var(--body-font);
   width: 100%;
   background-size: cover;
 }
@@ -20,4 +21,19 @@
 .OperaHero img {
   width: 500px;
   clip-path: ellipse(50% 34% at 50% 50%);
+}
+.OperaHero .name {
+  font-family: var(--head-font);
+  font-size: 100px;
+}
+.OperaHero .hello {
+  font-size: 60px;
+}
+.OperaHero .description {
+  max-width: 400px;
+  text-align: left;
+  margin: 60px 200px;
+  padding: 10px;
+  border: 1px solid var(--secondary-dark);
+  border-radius: 3px;
 }

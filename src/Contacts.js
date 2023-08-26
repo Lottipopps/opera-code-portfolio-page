@@ -13,12 +13,14 @@ function ContactForm() {
     <div className="Contacts">
       <form onSubmit={handleSubmit} className="container">
         <div className="row section">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" id="email-text">
+            Email
+          </label>
           <input id="email" type="email" name="email" autoComplete="off" />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         <div className="row section">
-          <label htmlFor="message">
+          <label htmlFor="message" id="message-text">
             Please write your name and question below
           </label>
           <textarea id="message" name="message" autoComplete="off" />

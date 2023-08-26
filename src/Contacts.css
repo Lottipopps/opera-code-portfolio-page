@@ -1,6 +1,7 @@
 .Contacts {
-  background-color: rgb(213, 231, 250);
+  height: 100vh;
   text-align: center;
+  background-size: cover;
 }
 .Contacts .section {
   margin: 0 auto;

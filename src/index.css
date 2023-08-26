@@ -1,1 +1,25 @@
+:root {
+  --primary-light: rgb(239, 236, 236);
+  --secondary-light: rgb(98, 146, 154);
+  --primary-dark: rgb(54, 52, 52);
+  --secondary-dark: rgb(92, 87, 87);
+}
 
+.light-mode .OperaHero,
+.light-mode .Projects,
+.light-mode .CV,
+.light-mode .Contacts {
+  background-color: var(--primary-light);
+}
+.light-mode nav {
+  background-color: var(--secondary-light);
+}
+.dark-mode .OperaHero,
+.dark-mode .Projects,
+.dark-mode .CV,
+.dark-mode .Contacts {
+  background-color: var(--primary-dark);
+}
+.dark-mode nav {
+  background-color: var(--secondary-dark);
+}

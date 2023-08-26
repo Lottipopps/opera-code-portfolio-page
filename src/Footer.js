@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="mailto:lotpop.chocolateuk@gmail.com">
-                  <i class="fa-solid fa-envelope"></i>
+                  <i className="fa-solid fa-envelope"></i>
                 </a>
               </li>
             </ul>

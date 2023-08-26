@@ -1,4 +1,5 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
 import OperaHero from "./OperaHero";
 import Projects from "./Projects";
@@ -10,11 +11,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <OperaHero id="OperaHero" />
-      <Projects id="Projects" />
-      <CV id="CV" />
-      <Contacts id="Contacts" />
-      <Footer id="Footer" />
+      <Routes>
+        <Route path="/" element={<OperaHero />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/cv" element={<CV />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

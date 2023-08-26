@@ -1,25 +1,28 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import LogoDay from "./images/Opera-Code-Logo-Day.png";
 
 export default function Navbar() {
   return (
-    <div className="Navbar sticky-top">
+    <nav className="Navbar sticky-top">
       <ul className="d-flex justify-content-between">
         <li>
-          <img src={LogoDay} alt="Logo" id="logo" />
+          <Link to="/">
+            <img src={LogoDay} alt="Logo" id="logo" />
+          </Link>
         </li>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#Projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="#CV">CV</a>
+          <Link to="/cv">CV</Link>
         </li>
         <li>
-          <a href="#Contacts">Contacts</a>
+          <Link to="/contacts">Contacts</Link>
         </li>
         <li>
           <i className="fa-solid fa-sun" style={{ color: "#34495e" }}></i>
@@ -27,6 +30,6 @@ export default function Navbar() {
           <i className="fa-solid fa-moon" style={{ color: "#34495e" }}></i>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }

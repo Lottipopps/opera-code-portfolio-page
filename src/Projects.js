@@ -3,7 +3,6 @@ import "./Projects.css";
 import Cards from "./Cards";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 export default function Projects() {
   return (
     <div className="Projects">

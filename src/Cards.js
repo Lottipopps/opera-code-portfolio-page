@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DictionaryApp from "./images/Dictionary-App.png";
 import CharlieTheHomebaker from "./images/Charlie-The-Homebaker.png";
@@ -34,23 +34,21 @@ export default function Cards() {
       <div className="row">
         {projects.map(function (project, index) {
           return (
-            <span key={index}>
-              <div className="col-6">
-                <span className="card project">
-                  <a href={project.href} target="_blank" rel="noreferrer">
-                    <img
-                      src={project.src}
-                      className="card-img-top"
-                      alt={project.name}
-                    />
-                  </a>
-                  <div className="card-body">
-                    <h6>{project.name}</h6>
-                    <p className="card-text"></p>
-                  </div>
-                </span>
+            <div key={index} className="col-6">
+              <div className="card project">
+                <a href={project.href} target="_blank" rel="noreferrer">
+                  <img
+                    src={project.src}
+                    className="card-img-top"
+                    alt={project.name}
+                  />
+                </a>
+                <div className="card-body">
+                  <h6>{project.name}</h6>
+                  <p className="card-text"></p>
+                </div>
               </div>
-            </span>
+            </div>
           );
         })}
       </div>

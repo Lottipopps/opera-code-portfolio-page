@@ -2,7 +2,7 @@
 // For more help visit https://formspr.ee/react-help
 import React from "react";
 import "./Contacts.css";
-
+import ContactMe from "./images/contact-me.svg";
 import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xaygolal");
@@ -11,6 +11,19 @@ function ContactForm() {
   }
   return (
     <div className="Contacts">
+      <div className="container">
+        <div className="row">
+          <div className="col-4"></div>
+          <div className="col-4">
+            <object
+              type="image/svg+xml"
+              data={ContactMe}
+              alt="contact types"
+            ></object>
+          </div>
+          
+        </div>
+      </div>
       <form onSubmit={handleSubmit} className="container">
         <div className="row section">
           <label htmlFor="email" id="email-text">

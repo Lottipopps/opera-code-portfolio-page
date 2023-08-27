@@ -25,6 +25,10 @@
 .OperaHero .name {
   font-family: var(--head-font);
   font-size: 100px;
+  text-shadow: -8px 8px 2px var(--secondary-light);
+}
+.dark-mode .OperaHero .name {
+  text-shadow: -8px 8px 2px var(--secondary-dark);
 }
 .OperaHero .hello {
   font-size: 60px;
@@ -36,4 +40,7 @@
   padding: 10px;
   border: 1px solid var(--secondary-dark);
   border-radius: 3px;
+}
+.dark-mode .OperaHero .description {
+  border: 1px solid var(--secondary-light);
 }

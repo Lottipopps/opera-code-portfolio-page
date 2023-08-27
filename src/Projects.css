@@ -13,3 +13,11 @@
   font-family: var(--body-font);
   margin: 20px 0;
 }
+.Projects h6 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.dark-mode .card {
+  background-color: rgb(164, 164, 164);
+  color: rgb(255, 255, 255);
+}

@@ -11,21 +11,25 @@ export default function Cards() {
       href: "https://dazzling-creponne-967adf.netlify.app/",
       src: DictionaryApp,
       name: "Dictionary App",
+      description: "Hello",
     },
     {
       href: "https://cerulean-sunshine-2df967.netlify.app/",
       src: ReactWeatherApp,
       name: "React Weather App",
+      description: "Love",
     },
     {
       href: "https://cosmic-truffle-090e28.netlify.app/",
       src: WorldClock,
       name: "World Clock App",
+      description: "How are you?",
     },
     {
       href: "https://peaceful-dasik-b0d092.netlify.app/gallery",
       src: CharlieTheHomebaker,
       name: "Charlie The Homebaker Portfolio App",
+      description:"I love you too"
     },
   ];
 
@@ -45,7 +49,7 @@ export default function Cards() {
                 </a>
                 <div className="card-body">
                   <h6>{project.name}</h6>
-                  <p className="card-text"></p>
+                  <p className="card-text">{project.description}</p>
                 </div>
               </div>
             </div>

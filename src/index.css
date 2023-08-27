@@ -7,13 +7,14 @@
   --body-font: "Play", sans-serif;
 }
 
-.light-mode .OperaHero,
-.light-mode .Projects,
-.light-mode .CV,
-.light-mode .Contacts {
+.OperaHero,
+.Projects,
+.CV,
+.Contacts {
   background-color: var(--primary-light);
+  color: rgb(0, 0, 0);
 }
-.light-mode nav {
+nav {
   background-color: var(--secondary-light);
 }
 .dark-mode .OperaHero,
@@ -21,7 +22,11 @@
 .dark-mode .CV,
 .dark-mode .Contacts {
   background-color: var(--primary-dark);
+  color: rgb(255, 255, 255);
 }
 .dark-mode nav {
   background-color: var(--secondary-dark);
+}
+.dark-mode Link {
+  color: rgb(240, 248, 255);
 }

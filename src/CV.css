@@ -1,6 +1,5 @@
 .CV {
   text-align: center;
-  padding: 35vh;
   height: 100vh;
 }
 .CV a {
@@ -9,8 +8,27 @@
   font-weight: 900;
   text-decoration: none;
   color: Black;
+  text-shadow: -5px 5px #ef3550, -10px 10px #f48fb1, -15px 15px #7e57c2,
+    -20px 20px #2196f3, -25px 25px #26c6da, -30px 30px #43a047,
+    -35px 35px #eeff41, -40px 40px #f9a825, -45px 45px #ff5722;
+}
+.dark-mode .CV a {
+  color: white;
 }
 .CV h4 {
   font-family: var(--body-font);
+  font-size: 35px;
   margin-top: 30px;
+}
+.CV object {
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+}
+.dark-mode .CV object {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 30%;
+}
+.CV .second {
+  margin: 0 auto;
 }

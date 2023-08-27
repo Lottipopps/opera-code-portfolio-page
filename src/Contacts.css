@@ -23,3 +23,16 @@
 .Contacts button {
   width: 100px;
 }
+.Contacts .contact-me {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.Contacts object {
+  margin-top: 20px;
+  height: 200px;
+  background-color: rgba(92, 87, 87, 0.3);
+  border-radius: 15px;
+}
+.dark-mode object {
+  background-color: rgba(255, 255, 255, 0.2);
+}

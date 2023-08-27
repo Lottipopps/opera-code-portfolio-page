@@ -18,7 +18,7 @@ function ContactForm() {
             <object
               type="image/svg+xml"
               data={ContactMe}
-              alt="contact types"
+              aria-labelledby="contact types"
             ></object>
           </div>
         </div>

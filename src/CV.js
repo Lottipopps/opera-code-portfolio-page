@@ -12,7 +12,7 @@ export default function CV() {
           <object
             type="image/svg+xml"
             data={CodeThink}
-            alt="thinking coder"
+            aria-labelledby="thinking coder"
           ></object>
         </div>
         <div className="row">
@@ -26,7 +26,7 @@ export default function CV() {
             type="image/svg+xml"
             data={Story}
             className="second"
-            alt="storyteller coder"
+            aria-labelledby="storyteller coder"
           ></object>
         </div>
       </div>

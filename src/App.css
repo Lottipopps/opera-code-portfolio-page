@@ -19,3 +19,11 @@
   text-decoration: none;
   color: black;
 }
+@media (max-width: 768px) {
+  .App .Navbar img {
+    width: 30px;
+  }
+  .App .Navbar li {
+    font-size: 10px;
+  }
+}

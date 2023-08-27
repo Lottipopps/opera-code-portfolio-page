@@ -40,7 +40,7 @@ export default function Cards() {
       <div className="row">
         {projects.map(function (project, index) {
           return (
-            <div key={index} className="col-6">
+            <div key={index} className="col-sm-6">
               <div className="card project">
                 <a href={project.href} target="_blank" rel="noreferrer">
                   <img

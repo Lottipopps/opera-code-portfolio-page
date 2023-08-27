@@ -44,11 +44,7 @@ function ContactForm() {
           />
         </div>
         <div className="row section">
-          <button
-            type="submit"
-            disabled={state.submitting}
-            className="btn"
-          >
+          <button type="submit" disabled={state.submitting} className="btn">
             Submit
           </button>
         </div>

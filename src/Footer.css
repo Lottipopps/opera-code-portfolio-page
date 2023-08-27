@@ -40,3 +40,12 @@
   display: inline-block;
   margin: 10px 0 10px 40px;
 }
+@media (max-width: 768px) {
+  .Footer h6 {
+    font-size: 16px;
+  }
+  .Footer .first li,
+  .Footer .second li {
+    font-size: 14px;
+  }
+}

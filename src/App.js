@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <div className="App">
-      <div className={yesDark ? "dark-mode" : "light-mode"}>
+      <div className={yesDark ? "dark-mode" : ""}>
         <nav className="Navbar sticky-top">
           <ul className="d-flex justify-content-between">
             <li>
@@ -38,7 +38,7 @@ function App() {
               <Link to="/cv">CV</Link>
             </li>
             <li>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/contacts">Contact me</Link>
             </li>
             <li onClick={setMode}>
               {yesDark ? (

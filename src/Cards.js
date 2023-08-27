@@ -11,25 +11,27 @@ export default function Cards() {
       href: "https://dazzling-creponne-967adf.netlify.app/",
       src: DictionaryApp,
       name: "Dictionary App",
-      description: "Hello",
+      description: "React.js • API Integration • Responsive Development",
     },
     {
       href: "https://cerulean-sunshine-2df967.netlify.app/",
       src: ReactWeatherApp,
       name: "React Weather App",
-      description: "Love",
+      description:
+        "React.js • API Integration • Responsive Development • JavaScript timestamp",
     },
     {
       href: "https://cosmic-truffle-090e28.netlify.app/",
       src: WorldClock,
       name: "World Clock App",
-      description: "How are you?",
+      description: "API Integration • JavaScript timestamp",
     },
     {
       href: "https://peaceful-dasik-b0d092.netlify.app/gallery",
       src: CharlieTheHomebaker,
       name: "Charlie The Homebaker Portfolio App",
-      description:"I love you too"
+      description:
+        "Vanilla JS • Vanilla CSS • Responsive Development • Multi-page Hosting",
     },
   ];
 

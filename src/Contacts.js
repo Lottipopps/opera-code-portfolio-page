@@ -21,9 +21,9 @@ function ContactForm() {
               alt="contact types"
             ></object>
           </div>
-          
         </div>
       </div>
+      <h4>Contact form:</h4>
       <form onSubmit={handleSubmit} className="container">
         <div className="row section">
           <label htmlFor="email" id="email-text">
@@ -47,7 +47,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="btn btn-primary"
+            className="btn"
           >
             Submit
           </button>

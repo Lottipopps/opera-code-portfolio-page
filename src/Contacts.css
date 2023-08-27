@@ -6,7 +6,6 @@
   background-size: cover;
 }
 .Contacts #email-text {
-  margin-top: 50px;
   font-size: 25px;
 }
 .Contacts #message-text {
@@ -19,6 +18,7 @@
 }
 .Contacts #message {
   height: 200px;
+  max-height: 260px;
 }
 .Contacts button {
   width: 100px;
@@ -35,4 +35,18 @@
 }
 .dark-mode object {
   background-color: rgba(255, 255, 255, 0.2);
+}
+.Contacts h4 {
+  font-family: var(--head-font);
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.Contacts button {
+  background-color: var(--secondary-light);
+  color: rgb(255, 255, 255);
+}
+.dark-mode .Contacts button {
+  background-color: var(--secondary-dark);
+  color: rgb(255, 255, 0);
 }

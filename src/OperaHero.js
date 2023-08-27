@@ -13,7 +13,6 @@ export default function OperaHero() {
           </h1>
           <br />
           <h2>Junior Frontend Developer (React.js) and Opera Singer</h2>
-          <p className="description">Please fill in text here</p>
         </div>
 
         <img src={Profilephoto} alt="prophile" />
